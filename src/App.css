@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.pending{
+  padding: 10px 30px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  color:#9747FF;
+  border-radius: 5px;
+}
+.cancled{
+  padding: 10px 30px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #CC212D ;
+  border-radius: 5px;
+}
+.rejected{
+  padding: 10px 30px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(209, 41, 41);
+  border-radius: 5px;
+}
+.failed{
+  padding: 10px 30px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(209, 41, 41);
+  border-radius: 5px;
+}
+.approved{
+  padding: 10px 30px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #27AE60;
+  border-radius: 5px;
+}
+.hold{
+  padding: 10px 30px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #EE65CC;
+  border-radius: 5px;
+}
+.completed{
+  padding: 10px 30px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(13, 224, 58, 0.877);
+  border-radius: 5px;
+}
+.delivered{
+  padding: 10px 30px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(13, 224, 58, 0.877);
+  border-radius: 5px;
+}
+.shipped{
+  padding: 10px 30px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  color: rgba(13, 224, 58, 0.877);
+  border-radius: 5px;
+}
+
+.pagination {
+  width: 30px;
+  /* height: 40px; */
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 30px;
+  /* background-color: gold; */
+}
+
+.pagination a {
+  padding: 10px 15px;
+  margin: 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: black;
+}
+
+.pagination_link{
+  /* padding: 10px 25px; */
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.pagination_link_active a{
+  color: #fff;
+  background: #47a7de;
+}
+.pagination_link_disable a{
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+}
+.containerStyle{
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+.inputStyle{
+  border: 1.5px solid rgb(251, 20, 255);
+  padding: 15px 20px;
+  outline: none;
+  border-radius: 5px;
+}
